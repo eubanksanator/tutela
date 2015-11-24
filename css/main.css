@@ -2,7 +2,7 @@
 @import url(animate.css);
 
 html{
-  background: url(../images/chicago1.jpg) no-repeat center center fixed;
+  background: url(../images/beam1.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -51,82 +51,82 @@ a, a:hover, a:active, a:focus{
 }
 
 /**********************************
-            Email page
-  ***********************************/
-.panel-default > .panel-heading{
-  background-color: #ddd;
-}
-.center-form{
-  margin-top: 100px;
-}
+Email page
+***********************************/
+            .panel-default > .panel-heading{
+              background-color: #ddd;
+            }
+            .center-form{
+              margin-top: 100px;
+            }
 
 /**********************************
   TOGGLED VIEWS OF BUSINESS-LIST
   ***********************************/
-.in, .collapsing{
-  border-top: 3px solid #D0222A;
-  color:white;
-}
-.gap-10{
-  height: 10px;
-}
-.business-list{
-  list-style-type: none;
-}
-.visit-site{
-  color: red;
-}
+  .in, .collapsing{
+    border-top: 3px solid #D0222A;
+    color:white;
+  }
+  .gap-10{
+    height: 10px;
+  }
+  .business-list{
+    list-style-type: none;
+  }
+  .visit-site{
+    color: red;
+  }
 
 /****************
     NAVBAR
-*****************/
-.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
-  background-color: transparent;
-  border-color: transparent;
-}
-.navbar-default .navbar-collapse{
-  border-color: #D0222A;
-  background-color: rgba(255,255,255,0.6);
-}
-.navbar-default .navbar-toggle .icon-bar{
-  background-color: #D0222A;
-}
+    *****************/
+    .navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+      background-color: transparent;
+      border-color: transparent;
+    }
+    .navbar-default .navbar-collapse{
+      border-color: #D0222A;
+      background-color: rgba(255,255,255,0.6);
+    }
+    .navbar-default .navbar-toggle .icon-bar{
+      background-color: #D0222A;
+    }
 
-.navi{
-  font-family: 'Libre Baskerville', serif;
-  padding-top: 20px;
-  background-color:transparent;
-  border:none;
-}
-.navi a{
-  font-size: 16px;
-}
+    .navi{
+      font-family: 'Libre Baskerville', serif;
+      padding-top: 20px;
+      background-color:transparent;
+      border:none;
+    }
+    .navi a{
+      font-size: 16px;
+    }
 
-.navbar-default .navbar-nav > li  a:hover{
-  color: white;
-}
-.dropdown-menu{
-  background-color:white;
-  color: black;
-  border-top:3px solid #B91D24;
-  box-shadow: 0;
-  border-radius: 0;
-}
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
-  color: red;
-  background-color: transparent;
-}
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover{
-  color: white;
-  background-color: transparent;
-}
-.navbar-default .navbar-nav > li ul li a:hover{
-  color: red;
-}
+    .navbar-default .navbar-nav > li  a:hover{
+      color: white;
+    }
+    .dropdown-menu{
+      background-color:white;
+      color: black;
+      border-top:3px solid #B91D24;
+      box-shadow: 0;
+      border-radius: 0;
+    }
+    .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+      color: red;
+      background-color: transparent;
+    }
+    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover{
+      color: white;
+      background-color: transparent;
+    }
+    .navbar-default .navbar-nav > li ul li a:hover{
+      color: red;
+    }
 
 /*************************************
           IPAD/MINI
-*************************************/
+          *************************************/
 
 
 
@@ -134,225 +134,225 @@ a, a:hover, a:active, a:focus{
 /****************
   COMPANY_LIST
   *****************/
-.biz-popup, .biz-title-2{
-  padding-right: 20px;
-}
-
-.biz-title{
-  font-size: 20px;
-  font-weight: bolder;
-}
-
-.biz-box{
-  background-color: rgba(255, 255, 255, 0.6);
-}
-
-.company-title-row{
-  background-color: rgba(255,255,255, 0.6);
-  width: 60%;
-}
-.company-content-row{
-  width: 60%;
-  position: absolute;
-  top: 220px;
-  background-color: yellow;
-}
-.company-title-row a{
-  font-size: 18px;
-}
-.biz-row{
-  margin-top: 125px;
-  margin-left: -30px;
-}
-.biz-list{
-
-}
-
-.biz-list li{
-  list-style: none;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-.biz-list > li{
-  float: left;
-  padding-left: 50px;
-  background-color: rgba(255,255,255, 0.6);
-}
-.biz-row ul ul{
-  background-color: white;
-  cursor: default;
-  display: none;
-  height: auto;
-  margin-left: -180px;
-  padding-top: 24px;
-  position: absolute;
-  top: -24px;
-  width: 200px;
-  border-top:10px solid #B91D24;
-  z-index: 10;
-}
-.biz-title{
-  border-left: 1px solid black;
-}
-.biz-title-2{
-  font-size: 22px;
-  transform: translateY(-12px);
+  .biz-popup, .biz-title-2{
+    padding-right: 20px;
   }
 
-.biz-list{
-  position: relative;
-}
+  .biz-title{
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .biz-box{
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .company-title-row{
+    background-color: rgba(255,255,255, 0.6);
+    width: 60%;
+  }
+  .company-content-row{
+    width: 60%;
+    position: absolute;
+    top: 220px;
+    background-color: yellow;
+  }
+  .company-title-row a{
+    font-size: 18px;
+  }
+  .biz-row{
+    margin-top: 125px;
+    margin-left: -30px;
+  }
+  .biz-list{
+
+  }
+
+  .biz-list li{
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .biz-list > li{
+    float: left;
+    padding-left: 50px;
+    background-color: rgba(255,255,255, 0.6);
+  }
+  .biz-row ul ul{
+    background-color: white;
+    cursor: default;
+    display: none;
+    height: auto;
+    margin-left: -180px;
+    padding-top: 24px;
+    position: absolute;
+    top: -24px;
+    width: 200px;
+    border-top:10px solid #B91D24;
+    z-index: 10;
+  }
+  .biz-title{
+    border-left: 1px solid black;
+  }
+  .biz-title-2{
+    font-size: 22px;
+    transform: translateY(-12px);
+  }
+
+  .biz-list{
+    position: relative;
+  }
 
 
 
 /*************************************
           DEVICE SCREEN SIZES
-*************************************/
-@media screen and (min-width: 320px){
-  .jumbo-box{
-    display:none;
-  }
-  .brand-title{
-    font-size: 24px
-  }
+          *************************************/
+          @media screen and (min-width: 320px){
+            .jumbo-box{
+              display:none;
+            }
+            .brand-title{
+              font-size: 24px
+            }
   /*.biz-list{
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
     width: 80%;
-  }*/
-  .biz-list li:nth-child(even){
-    border-top: 1.5px solid black;
-    border-bottom: 1.5px solid black;
-  }
-  .biz-list li{
-    /*list-style: inherit;*/
-    list-style: none;
-  }
-  .biz-row ul ul{
-    top:0px;
-    left:0px;
-  }
-  .biz-title{
-    border:none;
-    font-size: 16px;
-  }
- #arrow-right{
-    display: none;
-  }
-}
-
-
-@media screen and (min-width: 414px){
-  .jumbo-box{
-    display:none;
-  }
-  .brand-title{
-    font-size: 32px
-  }
-  .biz-list li:nth-child(even){
-    border-top: 1.5px solid black;
-    border-bottom: 1.5px solid black;
-  }
-  .biz-list li{
-    list-style: inherit;
-  }
-  .biz-row ul ul{
-    top:-24px;
-    left:199px;
-  }
-  .biz-title{
-    border:none;
-    font-size: 18px;
-  }
- #arrow-right{
-    display: none;
-  }
-}
-
-
-
-
-@media screen and (min-width: 768px){
-
-  .biz-list li:nth-child(even){
-    border-top: none;
-    border-bottom: none;
-  }
-  .biz-list li{
-    list-style: none;
-  }
-  .biz-list li .biz-title{
-    border-left: 1px solid black;
-  }
-  #biz-section{
-    padding-top: 100px;
-  }
-  .business-list{
-    position: relative;
-  }
-  .jumbo-box{
-    display: inherit;
-    position:relative;
-    top: 280px;
-    left:70px;
-    color: white;
-    text-align: center;
-    margin-bottom: 20px;
-    border-radius: 2px;
-    padding:2px;
-    background-color: rgba(100,100,100,.6);
-  }
-  .jumbo-content{
-    padding: 25px;
-    text-align: left;
-    font-size: 18px;
-  }
-  .navbar-default .navbar-collapse{
-    background-color: transparent;
-    border-color:transparent;
-  }
-  .navi{
-    padding-top:0;
-    /*background-color: rgba(208, 33, 33, 0.83);*/
-    border-radius: 0;
-  }
-  .navbar-default .navbar-nav > li > a{
-    color:white;
-  }
-  .brand-title{
-    color:white;
-  }
-  #arrow-right {
-    display: block;
-    position: absolute;
-    top: 0px;
-    right: 263px;
-    width: 0;
-    height: 0;
-    border-top: 25px solid transparent;
-    border-bottom: 30px solid transparent;
-    border-left: 24px solid rgba(255,255,255,0.6);
+    }*/
+    .biz-list li:nth-child(even){
+      border-top: 1.5px solid black;
+      border-bottom: 1.5px solid black;
     }
-}
-
-@media screen and (max-width: 768px) and (min-width: 768px){
-  .biz-list li .biz-title{
-    border-left: none;
+    .biz-list li{
+      /*list-style: inherit;*/
+      list-style: none;
+    }
+    .biz-row ul ul{
+      top:0px;
+      left:0px;
+    }
+    .biz-title{
+      border:none;
+      font-size: 16px;
+    }
+    #arrow-right{
+      display: none;
+    }
   }
-  .biz-row ul ul{
-    left: 290px;
-    width:220px;
+
+
+  @media screen and (min-width: 414px){
+    .jumbo-box{
+      display:none;
+    }
+    .brand-title{
+      font-size: 32px
+    }
+    .biz-list li:nth-child(even){
+      border-top: 1.5px solid black;
+      border-bottom: 1.5px solid black;
+    }
+    .biz-list li{
+      list-style: inherit;
+    }
+    .biz-row ul ul{
+      top:-24px;
+      left:199px;
+    }
+    .biz-title{
+      border:none;
+      font-size: 18px;
+    }
+    #arrow-right{
+      display: none;
+    }
   }
-}
-
-@media screen and (max-width: 991px){
-  #arrow-right{display: none}
-}
 
 
-/* FOOTER CONTENT*/
-footer{
+
+
+  @media screen and (min-width: 768px){
+
+    .biz-list li:nth-child(even){
+      border-top: none;
+      border-bottom: none;
+    }
+    .biz-list li{
+      list-style: none;
+    }
+    .biz-list li .biz-title{
+      border-left: 1px solid black;
+    }
+    #biz-section{
+      padding-top: 100px;
+    }
+    .business-list{
+      position: relative;
+    }
+    .jumbo-box{
+      display: inherit;
+      position:relative;
+      top: 280px;
+      left:70px;
+      color: white;
+      text-align: center;
+      margin-bottom: 20px;
+      border-radius: 2px;
+      padding:2px;
+      background-color: rgba(100,100,100,.6);
+    }
+    .jumbo-content{
+      padding: 25px;
+      text-align: left;
+      font-size: 18px;
+    }
+    .navbar-default .navbar-collapse{
+      background-color: transparent;
+      border-color:transparent;
+    }
+    .navi{
+      padding-top:0;
+      /*background-color: rgba(208, 33, 33, 0.83);*/
+      border-radius: 0;
+    }
+    .navbar-default .navbar-nav > li > a{
+      color:white;
+    }
+    .brand-title{
+      color:white;
+    }
+    #arrow-right {
+      display: block;
+      position: absolute;
+      top: 0px;
+      right: 263px;
+      width: 0;
+      height: 0;
+      border-top: 25px solid transparent;
+      border-bottom: 30px solid transparent;
+      border-left: 24px solid rgba(255,255,255,0.6);
+    }
+  }
+
+  @media screen and (max-width: 768px) and (min-width: 768px){
+    .biz-list li .biz-title{
+      border-left: none;
+    }
+    .biz-row ul ul{
+      left: 290px;
+      width:220px;
+    }
+  }
+
+  @media screen and (max-width: 991px){
+    #arrow-right{display: none}
+  }
+
+
+  /* FOOTER CONTENT*/
+  footer{
     background-color: #222329;
     color:white;
     position: absolute;
@@ -363,22 +363,25 @@ footer{
     height: 50px;
     width: 100%;
     overflow:hidden;
-}
-footer > h4{
-  padding-right: 50px;
-}
+  }
+  footer > h4{
+    padding-right: 50px;
+  }
 
 /*************************************************************************
 *************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*.test-comp-list{
+  top: 175px;
+  padding-left: -1px0;
+}
 
 
-
-.test-comp-list >div{
+.test-comp-list > div{
   padding-left: 0;
 }
-.test-comp-list > div > div{
-  top: 175px;
-  background-color: rgba(255, 255, 255, 0.52);
+.test-comp-hover{
+
+  background-color: white;
 }
 .test-comp-list-details{
   display: none;
@@ -388,9 +391,52 @@ footer > h4{
 .test-comp-hover:hover .test-comp-list-details{
   display:inline;
 }
-.test-comp-list-details .my-panel{
+.my-panel{
   background-color: white;
   border-color: transparent;
   text-align: left;
   padding:10px;
+  border:0;
+  border-top:15px solid #CE211C;
+  z-index: 1000;
 }
+.visit-site-link{
+  padding-top: 8px;
+  text-align: center;
+}
+.visit-site-link a:hover{
+  color:#E30808;
+}
+*/
+.c-list-container2{
+  display: none;
+}
+.c-list{
+  /*background-color: white;*/
+  /*position: absolute;*/
+  /*top: 190px;*/
+  padding-left: 0;
+  margin-top: 190px;
+  position: relative;
+}
+.c-list-container{
+  background-color: white;
+}
+.c-list-container:hover  .c-list-container2{
+  display: inline;
+}
+.boxer{
+  position: absolute;
+  top: 150px;
+  padding: 18px;
+  background-color: white;
+  font-weight: bolder;
+}
+.c-list-container2{
+  position: absolute;
+  top: -50px;
+  background-color: #FEF4E7;
+  padding: 10px;
+  border-top: 10px solid #D63532;
+}
+

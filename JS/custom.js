@@ -33,9 +33,6 @@ $(document).ready(function(){
 // });
 
 
-
-
-
 $(document).ready(function(){
   $('.b-ul li p').hide();
 
@@ -44,3 +41,27 @@ $(document).ready(function(){
     function() { $('.b-ul li p', $(this)).hide(); }
     );
 });
+
+
+// $(document).ready(function(){
+//   $('.c-list-container2').hide();
+
+//   $('.c-list-title').click(
+//     function() { $('.c-list-container2').show(); },
+//     function() { $('.b-ul li p').hide(); }
+//     );
+// });
+
+// $(".c-list-title").hover(
+//   function(){
+//     $('c-list-container2').collapse('show');
+//   }, function() {
+//     $('c-list-container2').collapse('hide');
+//   });
+
+
+// $('.c-list-title1').hover(
+//   function(){ $('c-list-container1').show(); },
+//   function(){ $('c-list-container1').hide(); }
+//   );
+

@@ -1,0 +1,45 @@
+
+@import url(normalize.css);
+@import url(animate.css);
+
+html{
+  background: url(../images/beam1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+  background-color: transparent;
+  font-family: 'Raleway', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,li > a, .brand-title{
+  font-family: 'Vidaloka', serif;
+}
+/*.c-title-box{
+  margin-top: 150px;
+}*/
+.c-title{
+  position: relative;
+  z-index: 10;
+}
+.c-content{
+  position: relative;
+  z-index: 20;
+}
+.c-content{
+  background-color: white;
+  border-top: 5px solid red;
+  padding:10px;
+  margin-top: -50px;
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
